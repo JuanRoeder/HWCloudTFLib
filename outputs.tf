@@ -17,3 +17,7 @@ output "enum_performance_type" {
 output "enum_regions" {
   value = local.enum_regions
 }
+
+output "enum_route_type" {
+  value = local.enum_route_type
+}

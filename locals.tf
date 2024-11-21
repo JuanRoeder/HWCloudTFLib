@@ -97,4 +97,17 @@ locals {
       "Ubuntu-22-04" = "Ubuntu 22.04 server 64bit"
     }
   }
+
+  enum_route_type = {
+    "Ecs" = "ecs"
+    "Extension-NIC" = "eni"
+    "Virtual-IP" = "vip"
+    "NAT-GW" = "nat"
+    "VPC-Peering" = "peering"
+    "VPN-GW" = "vpn"
+    "Direct-Connect" = "dc"
+    "Cloud-Connect" = "cc"
+    "VPC-Endpoint" = "egw"
+    "Enterprise-Route" = "er"
+  }
 }
