@@ -110,4 +110,29 @@ locals {
     "VPC-Endpoint" = "egw"
     "Enterprise-Route" = "er"
   }
+
+  enum_eip_type = {
+    "dynamic-BGP" = "5_bgp"
+    "static BGP" = "5_sbgp"
+  }
+
+  enum_bw_share_type = {
+    "Dedicated" = "PER"
+    "Shared" = "WHOLE"
+  }
+
+  enum_bw_charge_mode = {
+    "Traffic" = "traffic"
+    "Bandwidth" = "bandwidth"
+  }
+
+  enum_charging_mode = {
+    "Pay-per-use" = "postPaid"
+    "Yearly-Monthly" = "prePaid"
+  }
+
+  enum_period_unit = {
+    "Monthly" = "month"
+    "Yearly" = "year"
+  }
 }
