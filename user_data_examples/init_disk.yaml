@@ -1,0 +1,8 @@
+#cloud-config
+runcmd:
+  - echo "Iniciando la configuración del disco de datos"
+  - fdisk -l
+  - mkfs.ext4 /dev/vdb
+  - mkdir -p /mnt/data
+  - mount /dev/vdb /mnt/data
+  - echo "/dev/vdb /mnt/data ext4 defaults 0 0" >> /etc/fstab

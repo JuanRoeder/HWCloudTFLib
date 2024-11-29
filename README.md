@@ -2,6 +2,12 @@
 
 Este módulo contiene enumerables reutilizables, como tipos de instancias, discos, imágenes y regiones para Huawei Cloud.
 
+Para visualizar el contenido de los enumerables, ejecutar:
+
+| terraform console
+
+| local.< enumerable name >
+
 ## Comandos a utilizar en plan o apply utilizando las variables de entorno de desarrollo y producción
 
 terraform plan/apply -var-file="dev.tfvars"
