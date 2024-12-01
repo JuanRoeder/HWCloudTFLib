@@ -142,7 +142,7 @@ locals {
 
   enum_vpc = {
 
-    enum_route_type = {
+    route_type = {
       "Ecs" = "ecs"
       "Extension-NIC" = "eni"
       "Virtual-IP" = "vip"
