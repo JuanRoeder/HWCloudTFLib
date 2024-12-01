@@ -155,6 +155,28 @@ locals {
       "Enterprise-Route" = "er"
     }
 
+    secgroup_type = {
+      inbound = "ingress"
+      outbound = "egress"
+    }
+
+    ip_version = {
+      IPv4 = "IPv4"
+      IPv6 = "IPv6"
+    }
+
+    protocol_type = {
+      TCP = "tcp"
+      UDP = "udp"
+      ICMP = "icmp"
+      ICMPv6 = "icmpv6"
+    }
+
+    action_type = {
+      ALLOW = "allow"
+      DENY = "deny"
+    }
+
   }
 
   enum_eip = {   
