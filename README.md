@@ -5,7 +5,7 @@ Este módulo contiene enumerables reutilizables, como tipos de instancias, disco
 ## Versión Actual
 
 ```Markdown
-`1.6.2`
+1.6.2
 ```
 
 ## Configuración
@@ -73,13 +73,13 @@ Para salir de `terraform console` hacer `Ctrl + C`
 Se puede hacer uso de snippets para facilitar la escritura de código de configuración de la librería. Se puede descargar el archivo de snippets desde el repositorio
 
 ```
-<https://github.com/JuanRoeder/HWCloudTFSnippet.git>
+https://github.com/JuanRoeder/HWCloudTFSnippet.git
 ```
 
 ## Referencia oficial de Terraform para Huawei Cloud
 
 ```
-<https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs>
+https://registry.terraform.io/providers/huaweicloud/huaweicloud/latest/docs
 ```
 
 ## Otros comandos y ayudas
@@ -99,11 +99,11 @@ terraform plan/apply -var-file="prod.tfvars"
 Para Windows con Powershell
 
 ```
-<https://github.com/JuanRoeder/HWCloudTFLib/blob/main/user_data_examples/init_disk.ps1>
+https://github.com/JuanRoeder/HWCloudTFLib/blob/main/user_data_examples/init_disk.ps1
 ```
 
 Para Linux con yaml en formato Cloud Init
 
 ```
-<https://github.com/JuanRoeder/HWCloudTFLib/blob/main/user_data_examples/init_disk.yaml>
+https://github.com/JuanRoeder/HWCloudTFLib/blob/main/user_data_examples/init_disk.yaml
 ```
